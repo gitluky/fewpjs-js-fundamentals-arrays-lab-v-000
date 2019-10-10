@@ -15,7 +15,7 @@ const removeLast = function() {
   return pets.pop();
 }
 
-const removeFirst() {
+const removeFirst = function() {
   const pets = ["Milo", "Otis", "Garfield"];
   return pets.shift()
 }
